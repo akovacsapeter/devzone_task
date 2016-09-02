@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^index([^\.]+)$ index.php?item=$1
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^\.]+)$ index.php?url=$1

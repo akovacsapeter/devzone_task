@@ -1,0 +1,49 @@
+body {
+	font-family: arial;
+	font-size: 1em;
+}
+.wrapper {
+	max-width: 1000px;
+    min-height: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+.login-form, .registration-form {
+	text-align: center;
+	margin: auto;
+	width: 50%;
+}
+.login-form div, .registration-form div {
+	text-align: left;
+	margin: 10px;
+}
+.login-form label, .registration-form label {
+	display: block;
+}
+.login-form input, .registration-form input {
+	width: 90%;
+	background: #fff;
+	font-size: 1em;
+}
+.alert {
+	margin: 10px;
+	padding: 10px;
+	border: #ff0000 1px solid;
+	background: #eca8a8;
+}
+.error {
+	border: #ff0000 1px solid;
+}
+.capctha {
+	vertical-align: middle;
+	margin: 5px;
+}
+.info {
+	fon-size: 0.7em;
+	font-weight: bold;
+	margin: 20px;
+}
+.menu {
+	text-align: center;
+}
